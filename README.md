@@ -1,5 +1,7 @@
 # ActiveWorkflowClient
 
+![GitHub Workflow Status](https://img.shields.io/github/workflow/status/raspberry-lef/active_workflow_client/Ruby?label=build&style=flat-square) ![GitHub](https://img.shields.io/github/license/raspberry-lef/active_workflow_client?color=27aace&style=flat-square)
+
 TODO: Delete this and the text above, and describe your gem
 
 ## Installation

@@ -1,5 +1,8 @@
 AllCops:
   TargetRubyVersion: 2.4
+  SuggestExtensions: false
+  Exclude:
+  - 'active_workflow_client.gemspec'
 
 Style/StringLiterals:
   Enabled: true
@@ -10,4 +13,10 @@ Style/StringLiteralsInInterpolation:
   EnforcedStyle: double_quotes
 
 Layout/LineLength:
-  Max: 120
+  Max: 80
+
+Metrics/MethodLength:
+  Max: 15
+
+Metrics/BlockLength:
+  IgnoredMethods: ['describe', 'context']
